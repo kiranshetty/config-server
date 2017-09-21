@@ -1,5 +1,5 @@
 server:
-  port: 8889
+  port: ${port:8011}
 spring:
   cloud:
     config:
@@ -7,4 +7,3 @@ spring:
         git:
           uri: https://github.com/kiranshetty/config-repo
           searchPaths: '{application}'
-          

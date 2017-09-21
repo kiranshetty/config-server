@@ -1,0 +1,14 @@
+applications:
+- name: config-service
+  host: my-config-host
+  buildpack: liberty-for-java
+  memory: 1G
+  timeout: 180
+  instances: 1
+  domain: mybluemix.net
+  disk_quota: 1024M
+#  services:
+#    - ConfigServer-MQ
+  env:
+    SPRING_PROFILES_ACTIVE: bluemix
+    JAVA_OPTS: -Djava.security.egd=file:///dev/urandom 

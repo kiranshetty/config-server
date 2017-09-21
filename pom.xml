@@ -36,10 +36,10 @@
 			<scope>test</scope>
 		</dependency>
 
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-bus-amqp</artifactId>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.springframework.cloud</groupId> -->
+<!-- 			<artifactId>spring-cloud-starter-bus-amqp</artifactId> -->
+<!-- 		</dependency> -->
 
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
@@ -66,7 +66,8 @@
 			<dependency>
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>Dalston.BUILD-SNAPSHOT</version>
+<!-- 				<version>Dalston.BUILD-SNAPSHOT</version> -->
+				<version>Brixton.RELEASE</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
